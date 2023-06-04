@@ -5,21 +5,32 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/assets/bg-main.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 a {
   color: black;
 }
 
 a:hover {
+  color: black;
   font-weight: bold;
   transition: 0.2s;
 }
 
-/*header*/
-.styp {
-  min-height: 600px;
-  font-family: 'Cairo', sans-serif;
-}
-
 .text-styp h1{
   font-size: 100px;
+}
+
+.news-img img {
+  width: 640px;
+  height: 320px;
 }
