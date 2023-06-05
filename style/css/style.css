@@ -7,7 +7,7 @@ body {
 
 
 main {
-  width: 100vw;
+  width: auto;
   height: 100vh;
   background-image: url('/assets/bg-main.jpg');
   background-repeat: no-repeat;
