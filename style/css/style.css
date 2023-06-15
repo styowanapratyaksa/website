@@ -34,3 +34,8 @@ a:hover {
   width: 640px;
   height: 320px;
 }
+
+/* animation */
+.container .row .animation-fade {
+  display: none;
+}

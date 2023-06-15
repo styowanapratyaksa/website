@@ -1,8 +1,8 @@
 // $document().ready(function(){
 
-//     $("a").click(function(){
-//         $("#home").load("index.html");
-//     })
+//     setTimeout(function () {
+//         $(".gallery").fadeIn(2000);
+//     }, 500);
 
 // });
 
@@ -10,6 +10,11 @@
 $(function(){
     $("#navbar").load("navbar.html");
     $("#footer").load("footer.html");
+    $("#banner").load("banner.html");
 });
 
+// trantition
+setTimeout(function () {
+    $(".animation-fade").fadeIn(2000);
+}, 500);
 
