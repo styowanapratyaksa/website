@@ -98,10 +98,24 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
 
+      let scrollRef = 0;
+
+      window.addEventListener('scroll', function() {
+        // increase value up to 10, then refresh AOS
+        scrollRef <= 10 ? scrollRef++ : AOS.refresh();
+      });
+
       const berita = document.querySelectorAll('.berita');
       berita.forEach((img, i) => {
         img.dataset.aos = 'fade-right';
       });
+
+      // document.querySelectorAll('img')
+      //   .forEach((img) => 
+      //     img.addEventListener('load', () =>
+      //       AOS.refresh()
+      //     )
+      //   );
 
       AOS.init();
     </script>
