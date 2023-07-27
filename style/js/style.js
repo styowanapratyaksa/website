@@ -13,8 +13,5 @@ $(function(){
     $("#banner").load("banner.html");
 });
 
-// trantition
-setTimeout(function () {
-    $(".animation-fade").fadeIn(2000);
-}, 500);
+
 

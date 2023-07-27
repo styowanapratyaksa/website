@@ -24,7 +24,3 @@ main {
   height: 320px;
 }
 
-/* animation */
-.container .row .animation-fade {
-  display: none;
-}
