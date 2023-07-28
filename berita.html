@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="assets/STYP LOGO 2.png">
+    <link rel="icon" type="image/x-icon" href="assets/STYP LOGO 2.png" />
     <title>Berita</title>
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -35,6 +35,28 @@
       <div class="row px-3 px-md-0">
         <div class="col-12 mb-4">
           <div class="berita card row d-flex flex-row justify-content-between mb-4">
+            <img src="/assets/lomba-intern-60-main.JPG" class="col-12 col-md-6 px-0" alt="..." style="overflow: hidden" />
+
+            <div class="card-body col-12 col-md-6">
+              <h5 class="card-title fw-semibold">Lomba Internal - HUT STYP 60</h5>
+              <p class="card-text text-secondary mb-2">Menyambut HUT ST Yowana Pratyaksa ke-60, pemuda meriahkan Lomba Internal</p>
+              <p class="card-text mb-3"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a href="berita-lomba-intern-hut60.html" class="btn btn-dark">Baca Berita</a>
+            </div>
+          </div>
+
+          <div class="berita card row d-flex flex-row justify-content-between mb-4">
+            <img src="/assets/baksos-60-main.JPG" class="col-12 col-md-6 px-0" alt="..." style="overflow: hidden" />
+
+            <div class="card-body col-12 col-md-6">
+              <h5 class="card-title fw-semibold">Bakti Sosial - HUT STYP 60</h5>
+              <p class="card-text text-secondary mb-2">Sedikit tapi Bermakna, ST Yowana Pratyaksa Beri Bantuan Sosial untuk Warga</p>
+              <p class="card-text mb-3"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <a href="berita-baksos-hut60.html" class="btn btn-dark">Baca Berita</a>
+            </div>
+          </div>
+
+          <div class="berita card row d-flex flex-row justify-content-between mb-4">
             <img src="/assets/mangrove-60-main.JPG" class="col-12 col-md-6 px-0" alt="..." style="overflow: hidden" />
 
             <div class="card-body col-12 col-md-6">
@@ -45,7 +67,7 @@
             </div>
           </div>
 
-          <div class=" berita card row d-flex flex-row justify-content-between mb-4">
+          <div class="berita card row d-flex flex-row justify-content-between mb-4">
             <img src="/assets/escom-60-5.JPG" class="col-12 col-md-6 px-0" alt="..." style="overflow: hidden" />
 
             <div class="card-body col-12 col-md-6">
@@ -98,21 +120,20 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-
       let scrollRef = 0;
 
-      window.addEventListener('scroll', function() {
+      window.addEventListener("scroll", function () {
         // increase value up to 10, then refresh AOS
         scrollRef <= 10 ? scrollRef++ : AOS.refresh();
       });
 
-      const berita = document.querySelectorAll('.berita');
+      const berita = document.querySelectorAll(".berita");
       berita.forEach((img, i) => {
-        img.dataset.aos = 'fade-right';
+        img.dataset.aos = "fade-right";
       });
 
       // document.querySelectorAll('img')
-      //   .forEach((img) => 
+      //   .forEach((img) =>
       //     img.addEventListener('load', () =>
       //       AOS.refresh()
       //     )
@@ -120,8 +141,6 @@
 
       AOS.init();
     </script>
-
-    
   </body>
   <script src="style/js/style.js"></script>
 </html>
