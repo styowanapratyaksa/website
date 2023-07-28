@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="assets/STYP LOGO 2.png">
+    <link rel="icon" type="image/x-icon" href="assets/STYP LOGO 2.png" />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Ketua STT</title>
@@ -36,7 +36,7 @@
     <!-- Gallery -->
     <div class="container">
       <div class="row">
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
             <img src="/assets/ketuastt-10.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -51,7 +51,7 @@
           </div>
         </div>
 
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
             <img src="/assets/ketuastt-9.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -66,9 +66,9 @@
           </div>
         </div>
 
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
-            <img src="/assets/tes.png" class="card-img-top" alt="..." />
+            <img src="/assets/ketuastt-8.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">I Gede Suyasa</h5>
               <p class="card-text text-secondary">Ketua STT Yowana Pratyaksa Kedelapan</p>
@@ -81,7 +81,7 @@
           </div>
         </div>
 
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
             <img src="/assets/ketuastt-7.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -96,7 +96,7 @@
           </div>
         </div>
 
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
             <img src="/assets/ketuastt-6.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -111,7 +111,7 @@
           </div>
         </div>
 
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
             <img src="/assets/ketuastt-5.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -126,7 +126,7 @@
           </div>
         </div>
 
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
             <img src="/assets/tes.png" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -141,7 +141,7 @@
           </div>
         </div>
 
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
             <img src="/assets/tes.png" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -156,9 +156,9 @@
           </div>
         </div>
 
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
-            <img src="/assets/tes.png" class="card-img-top" alt="..." />
+            <img src="/assets/ketuastt-2.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">I Nyoman Atum</h5>
               <p class="card-text text-secondary">Ketua STT Yowana Pratyaksa Kedua</p>
@@ -171,7 +171,7 @@
           </div>
         </div>
 
-        <div class=" ketua-img col-md-4 mt-5 d-flex justify-content-center">
+        <div class="ketua-img col-md-4 mt-5 d-flex justify-content-center">
           <div class="card animation-fade" style="width: 18rem">
             <img src="/assets/tes.png" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -196,22 +196,20 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-
       let scrollRef = 0;
 
-      window.addEventListener('scroll', function() {
+      window.addEventListener("scroll", function () {
         // increase value up to 10, then refresh AOS
         scrollRef <= 10 ? scrollRef++ : AOS.refresh();
       });
 
-      const ketuaImg = document.querySelectorAll('.ketua-img');
+      const ketuaImg = document.querySelectorAll(".ketua-img");
       ketuaImg.forEach((img, i) => {
-        img.dataset.aos = 'fade-up';
-        img.dataset.aosAnchorPlacement ='center-bottom';
-        img.dataset.aosDelay = i*100;
+        img.dataset.aos = "fade-up";
+        img.dataset.aosAnchorPlacement = "center-bottom";
+        img.dataset.aosDelay = i * 100;
         img.dataset.aosDuration = 1000;
       });
-
 
       AOS.init();
     </script>

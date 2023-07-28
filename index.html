@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="assets/STYP LOGO 2.png">
+    <link rel="icon" type="image/x-icon" href="assets/STYP LOGO 2.png" />
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style/css/style.css" />
@@ -30,19 +30,21 @@
       <div class="row justify-content-center">
         <h2 class="fw-semibold mb-4">SEJARAH STYP</h2>
         <p class="text-secondary col-11">
-          Seke Truna Yowana Pratyaksa Banjar Bualu adalah organisasi pemuda yg didirikan oleh pemuda - pemudi Banjar Bualu, sebelum diberi nama ST Yowana Pratyaksa diawal berdirinya diberi nama Remaja Harapan Bualu pada tahun 1967, nama ini
-          diberikan oleh pinih sepuh banjar bualu saat itu Bapak Made Ari. Seiring semakin banyak nya pemuda dan pemudi yg bergabung, akhirnya di bulan juli tepat nya tanggal 29 juli 1976 resmi diberi nama ST Yowana Pratyaksa oleh salah
-          seorang tokoh pendidikan yg dimiliki oleh Banjar Bualu yaitu Bapak Ketut Kuturan, dan menurut catatan ketua nya pertama adalah Bapak Wayan Oplang pada saat itu. Nama ST Yowana Pratyaksa yang memiliki makna, Yowana adalah pemuda
-          dan Pratyaksa adalah selalu mawas diri atau perhatian terhadap semua hal. Berbagai prestasi ditorehkan oleh ST Yowana Pratyaksa, salah satu diantara nya mewakili lomba Seke Truna Duta Badung pada Tahun 1987, dan pada saat itu ST
-          Yowana Pratyaksa diketuai oleh I Nyoman Sudarma.
+          Sekaa Truna Yowana Pratyaksa Banjar Bualu adalah organisasi pemuda yg didirikan oleh pemuda - pemudi Banjar Bualu, sebelum diberi nama ST Yowana Pratyaksa diawal berdirinya diberi nama Remaja Harapan Bualu pada tahun 1967, nama
+          ini diberikan oleh pinih sepuh banjar bualu saat itu Bapak Made Ari. Seiring semakin banyak nya pemuda dan pemudi yg bergabung, akhirnya di bulan Juli tepat nya tanggal 29 juli 1976 resmi diberi nama ST Yowana Pratyaksa oleh salah
+          seorang tokoh pendidikan yg dimiliki oleh Banjar Bualu yaitu Bapak Ketut Kuturan, Pastinya bulan Mei 1987. Nama itu disepakati seiring dengan Sekaa Truna Banjar Bualu ditujuk sebagai Peserta Loba Seka Teruna tingkat Kabupaten
+          Badung, sebagai duta kecamatan Kuta. Pada saat itulah Remaja Harapan diganti menjadi ST Yowana Pratyaksa agar mengesankan adanya, ngajegang adat lan budaya, nama Sekaa Truna pun disesuaikan. Saat itu Wayan Solo menjadi Pangliman
+          ST Yowana Pratyaksa, bukan ketua karena sudah status menikah Tahun 86. Namun demikian saat melakukan persiapan lomba, hampir sepenuhnya persiapan data administrasi (Monografi, dll) dibuat oleh pangliman dengan lakukan study
+          banding ke Pecatu (ST Santhi Darma) yang sudah pernah berlomba. Menurut catatan ketua nya pertama adalah Bapak Wayan Oplang pada saat itu. Nama ST Yowana Pratyaksa yang memiliki makna, Yowana adalah pemuda dan Pratyaksa adalah
+          selalu mawas diri atau perhatian terhadap semua hal. Berbagai prestasi ditorehkan oleh ST Yowana Pratyaksa, salah satu diantara nya mewakili lomba Seke Truna Duta Badung pada Tahun 1987, dan pada saat itu ST Yowana Pratyaksa
+          diketuai oleh I Nyoman Sudarma.
         </p>
       </div>
     </section>
     <!-- End of Sejarah Singkat -->
 
     <!-- Carousel Mini Gallery -->
-    <section data-aos="fade-up"
-    data-aos-duration="3000" class="container-fluid px-0">
+    <section data-aos="fade-up" data-aos-duration="3000" class="container-fluid px-0">
       <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -121,7 +123,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -159,7 +160,8 @@
           </p>
         </div>
 
-        <iframe data-aos="zoom-out"
+        <iframe
+          data-aos="zoom-out"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21984.59313856765!2d115.20185502195451!3d-8.796204170405675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2433bb573638f%3A0x38c2cff64e9d09c4!2sBanjar%20Bualu!5e0!3m2!1sid!2sid!4v1685930565687!5m2!1sid!2sid"
           width="600"
           height="450"
@@ -176,19 +178,18 @@
     <div class="" id="footer"></div>
     <!-- End of Footer -->
 
-  <!-- AOS -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      let scrollRef = 0;
 
-    let scrollRef = 0;
+      window.addEventListener("scroll", function () {
+        // increase value up to 10, then refresh AOS
+        scrollRef <= 10 ? scrollRef++ : AOS.refresh();
+      });
 
-    window.addEventListener('scroll', function() {
-      // increase value up to 10, then refresh AOS
-      scrollRef <= 10 ? scrollRef++ : AOS.refresh();
-    });
-
-    AOS.init();
-  </script>
+      AOS.init();
+    </script>
   </body>
   <!--jquery-->
 
