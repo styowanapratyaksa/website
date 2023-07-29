@@ -3,7 +3,10 @@
 
 body {
   font-family: "Inter", sans-serif;
+  /* position: absolute; */
 }
+
+
 
 main {
   width: auto;
